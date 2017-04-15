@@ -10,3 +10,21 @@ layout: default
           </div>
      </div>
 </section>
+
+<section class="recents">
+     <div class="wrapper">
+          <!-- {% for post in site.posts limit:1 %}
+               <div class="post">
+                    <h1>{{ post.title }}</h1>
+                    <p>{{ post.meta }}</p>
+               </div>
+          {% endfor %} -->
+          <ul>
+               {% for post in site.posts %}
+               <li>
+                    <p>There's a post here</p>
+               </li>
+               {% endfor %}
+          </ul>
+     </div>
+</section>

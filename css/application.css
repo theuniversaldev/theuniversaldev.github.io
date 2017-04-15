@@ -53,6 +53,10 @@ section{
      margin: 15px 0;
 }
 
+a.menu {
+     display: none;
+}
+
 @keyframes rockabye {
      0% {
           left: 0px;
@@ -99,7 +103,7 @@ nav li {
 }
 
 nav li a {
-     color: #A09EA2;
+     color: #9AA9BE;
 }
 
 nav li a:hover {
@@ -163,7 +167,6 @@ section.banner h2 {
 }
 
 section.banner h2 a {
-     //color: #A09EA2;
      color: #9AA9BE;
      font-size: 25px;
 }
@@ -179,4 +182,40 @@ section.banner h2 a:hover > span {
 
 section.banner div.content {
      padding-top: 0px;
+}
+
+/* Recent Posts Styling */
+
+section.recents {
+     background-color: #F0F1F5;
+     width: 100%;
+     height: 600px;
+     box-shadow: 100px 0px 0px #F0F1F5, -100px 0px 0px #F0F1F5;
+}
+
+/* Responsive Design Styling */
+
+@media only screen and (max-width: 768px) {
+     section.nav nav.navigation {
+          display: none;
+     }
+
+     section.nav nav.navigation.active {
+          display: block;
+          width: 100%;
+     }
+
+     section.nav nav.navigation.active li a {
+          display: block;
+     }
+
+     a.menu {
+          display: block;
+          float: right;
+     }
+
+     a.menu i {
+          color: #9AA9BE;
+          padding-top: 17px;
+     }
 }
