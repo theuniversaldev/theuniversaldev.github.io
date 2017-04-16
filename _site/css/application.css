@@ -285,6 +285,18 @@ a.link {
      margin: 10px 10px;
 }
 
+a.link:hover {
+     color: #0BE370;
+}
+
+a.link.youtube:hover {
+     color: #E62117;
+}
+
+a.link.github:hover {
+     color: #24292E;
+}
+
 a.link i {
      display: block;
      width: 100%;
