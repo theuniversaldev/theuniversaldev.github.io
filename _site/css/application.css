@@ -192,21 +192,21 @@ section.banner div.content {
      padding-top: 0px;
 }
 
-/* Recent Posts Styling */
+/* Posts Styling */
 
-section.recents {
+section.posts {
      background-color: #F0F1F5;
      width: 100%;
      height: 100%;
      box-shadow: 100px 0px 0px #F0F1F5, -100px 0px 0px #F0F1F5;
 }
 
-section.recents div.wrapper {
+section.posts div.wrapper {
      text-align: center;
      margin-bottom: 50px;
 }
 
-/* For the Posts (Recents and For All Pages) */
+/* For the Posts */
 
 div.post {
      position: relative;
@@ -254,6 +254,7 @@ div.post p.tag {
      top: -40px;
      border-radius: 4px;
      margin-bottom: 0px;
+     text-transform: uppercase;
 }
 
 div.post a {
@@ -309,6 +310,12 @@ a.link p {
      display: block;
      width: 100%;
      padding-top: 25px;
+}
+
+/* Footer Styling */
+
+section.banner#footer {
+     margin-top: 25px;
 }
 
 /* Responsive Design Styling */

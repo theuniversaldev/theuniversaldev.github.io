@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<section class="banner">
+     <div class="wrapper">
+          <div class="content">
+               <h1>I <img src="/assets/earth.png" alt="bing"> all over my twinkies</h1>
+               <h2><a href="https://www.youtube.com/theuniversaldev" target="_blank">By the way, have you even seen my channel? <span><i class="fa fa-arrow-right"></i></span></a></h2>
+          </div>
+     </div>
+</section>
+
+<section class="posts">
+     <div class="wrapper">
+          {% for post in site.posts limit:6 %}
+               {% if post.tag contains "video" %}
+                    <div class="post">
+                         <img src="{{ post.image }}" alt="{{ post.alt }}" class="image">
+                         <div class="wrapper">
+                              <p class="tag">{{ post.tag }}</p>
+                              <h1>{{ post.title }}</h1>
+                              <p>{{ post.meta }}</p>
+                              <div class="button">
+                                   <a href="{{}}">Read Post</a>
+                              </div>
+                         </div>
+                    </div>
+               {% endif %}
+          {% endfor %}
+     </div>
+</section>
