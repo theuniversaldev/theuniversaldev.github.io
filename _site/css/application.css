@@ -57,6 +57,10 @@ a.menu {
      display: none;
 }
 
+a.menu:hover {
+     color: #3C4857;
+}
+
 @keyframes rockabye {
      0% {
           left: 0px;
@@ -107,7 +111,7 @@ nav li a {
 }
 
 nav li a:hover {
-     color: #000000;
+     color: #3C4857;
 }
 
 nav li:first-child {
@@ -205,8 +209,16 @@ section.recents {
           width: 100%;
      }
 
-     section.nav nav.navigation.active li a {
+     section.nav .navigation.active ul li {
           display: block;
+          width: 100%;
+          text-align: center;
+          padding: 1em 0;
+          border-bottom: 1px solid #F0F1F5;
+     }
+
+     section.nav .navigation.active ul li:last-child {
+          border-bottom: none;
      }
 
      a.menu {
