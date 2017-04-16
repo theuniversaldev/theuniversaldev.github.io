@@ -218,11 +218,13 @@ div.post {
 div.post h1 {
      color: #3C4857;
      margin-top: 0px;
+     text-align: left;
 }
 
 div.post p {
      color: #9AA9BE;
      line-height: 30px;
+     text-align: left;
 }
 
 div.post img {
@@ -261,6 +263,39 @@ div.post a:hover {
      color: #FFFFFF;
      border: 1px solid #0BE370;
      cursor: pointer;
+}
+
+/* Links Styling */
+
+section.class div.wrapper {
+     margin: 0 auto;
+     text-align: center;
+}
+
+a.link {
+     display: inline-block;
+     width: 300px;
+     height: 300px;
+     box-shadow: 0px 0px 3px rgba(60, 72, 87, 0.5);
+     border-radius: 4px;
+     text-align: center;
+     padding: 0px;
+     margin: 0px;
+     color: #9AA9BE;
+     margin: 10px 10px;
+}
+
+a.link i {
+     display: block;
+     width: 100%;
+     font-size: 50px;
+     padding-top: 85px;
+}
+
+a.link p {
+     display: block;
+     width: 100%;
+     padding-top: 25px;
 }
 
 /* Responsive Design Styling */
@@ -348,17 +383,3 @@ div.post a:hover {
           font-size: 12pt;
      }
 }
-
-/*@media only screen and (max-width: 1120px) {
-     section.banner div.content {
-          text-align: left;
-          transform: scale(0.50);
-     }
-}
-
-@media only screen and (max-width: 640px) {
-     section.banner div.content h1 {
-          text-align: left;
-          transform: scale(0.75);
-     }
-}*/
