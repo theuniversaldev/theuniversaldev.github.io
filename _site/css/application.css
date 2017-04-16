@@ -231,3 +231,64 @@ section.recents {
           padding-top: 17px;
      }
 }
+
+@media only screen and (max-width: 1140px) {
+     section.banner div.content h1 {
+          font-size: 20pt;
+     }
+
+     section.banner div.content h2 a {
+          font-size: 18pt;
+     }
+
+     section.banner div.content h1 img {
+          width: 75px;
+          height: 75px;
+          line-height: none;
+          top: 25px;
+     }
+}
+
+@media only screen and (max-width: 740px) {
+     section.banner div.content h1 {
+          font-size: 18pt;
+          line-height: none;
+     }
+
+     section.banner div.content h2 a {
+          font-size: 16pt;
+          line-height: none;
+     }
+
+     section.banner div.content h1 > img {
+          width: 50px;
+          height: 50px;
+          line-height: none;
+          top: 15px;
+     }
+}
+
+@media only screen and (max-width: 430px) {
+     section.banner div.content h1 {
+          font-size: 14pt;
+          line-height: none;
+     }
+
+     section.banner div.content h2 a {
+          font-size: 12pt;
+     }
+}
+
+/*@media only screen and (max-width: 1120px) {
+     section.banner div.content {
+          text-align: left;
+          transform: scale(0.50);
+     }
+}
+
+@media only screen and (max-width: 640px) {
+     section.banner div.content h1 {
+          text-align: left;
+          transform: scale(0.75);
+     }
+}*/
