@@ -53,6 +53,10 @@ section{
      margin: 15px 0;
 }
 
+h4 {
+     color: #9AA9BE;
+}
+
 a.menu {
      display: none;
 }
@@ -215,6 +219,10 @@ div.post {
      margin: 10px;
 }
 
+div.post:hover {
+     transform: scale(1.15);
+}
+
 div.post h1 {
      color: #3C4857;
      margin-top: 0px;
@@ -283,18 +291,11 @@ a.link {
      margin: 0px;
      color: #9AA9BE;
      margin: 10px 10px;
+     background-color: #FFFFFF;
 }
 
 a.link:hover {
-     color: #0BE370;
-}
-
-a.link.youtube:hover {
-     color: #E62117;
-}
-
-a.link.github:hover {
-     color: #24292E;
+     transform: scale(1.15);
 }
 
 a.link i {
