@@ -246,7 +246,6 @@ div.post img {
 
 div.post p.tag {
      color: #FFFFFF;
-     //background-color: #0BE370;
      padding-top: 5px;
      height: 40px;
      width: 100px;
@@ -332,7 +331,7 @@ section.banner#footer {
 }
 
 section.banner#footer h1 img {
-     top: 25px;
+     top: 55px;
 }
 
 /* Responsive Design Styling */
