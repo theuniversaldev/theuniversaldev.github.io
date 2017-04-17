@@ -17,11 +17,11 @@ layout: default
                <div class="post">
                     <img src="{{ post.image }}" alt="{{ post.alt }}" class="image">
                     <div class="wrapper">
-                         <p class="tag">{{ post.tag }}</p>
+                         <p class="tag {{post.tag}}">{{ post.tag }}</p>
                          <h1>{{ post.title }}</h1>
                          <p>{{ post.meta }}</p>
                          <div class="button">
-                              <a href="{{}}">Read Post</a>
+                              <a href="{{post.url}}">Read Post</a>
                          </div>
                     </div>
                </div>

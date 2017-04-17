@@ -221,6 +221,7 @@ div.post {
 
 div.post:hover {
      transform: scale(1.15);
+     z-index: 10;
 }
 
 div.post h1 {
@@ -245,7 +246,7 @@ div.post img {
 
 div.post p.tag {
      color: #FFFFFF;
-     background-color: #0BE370;
+     //background-color: #0BE370;
      padding-top: 5px;
      height: 40px;
      width: 100px;
@@ -255,6 +256,18 @@ div.post p.tag {
      border-radius: 4px;
      margin-bottom: 0px;
      text-transform: uppercase;
+}
+
+div.post p.tag.design {
+     background-color: #0172FF;
+}
+
+div.post p.tag.code {
+     background-color: #0BE370;
+}
+
+div.post p.tag.video {
+     background-color: #E62117;
 }
 
 div.post a {
@@ -316,6 +329,10 @@ a.link p {
 
 section.banner#footer {
      margin-top: 25px;
+}
+
+section.banner#footer h1 img {
+     top: 25px;
 }
 
 /* Responsive Design Styling */
