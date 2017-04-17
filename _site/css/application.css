@@ -324,6 +324,40 @@ a.link p {
      padding-top: 25px;
 }
 
+/* Post Styling */
+
+div.postcontent {
+     padding: 100px 0px;
+}
+
+div.postcontent h1 {
+     color: #3C4857;
+}
+
+div.postcontent h2 {
+     color: #9AA9BE;
+}
+
+div.postcontent code {
+     border: 1.5px solid #3C4857;
+     background-color: #F0F1F5;
+     border-radius: 4px;
+     width: 100%;
+     padding: 25px;
+     margin: 25px 0px;
+     display: block;
+}
+
+div.postcontent a {
+     font-weight: bold;
+     color: #3C4857;
+}
+
+div.postcontent h1, div.postcontent h2 {
+     margin: 0px;
+     padding: 0px;
+}
+
 /* Footer Styling */
 
 section.banner#footer {
