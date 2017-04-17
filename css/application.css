@@ -370,7 +370,17 @@ section.banner#footer h1 img {
 
 /* Responsive Design Styling */
 
+@media only screen and (max-width: 1254px) {
+     section.banner#footer h1 img {
+          top: 30px;
+     }
+}
+
 @media only screen and (max-width: 768px) {
+     section.banner#footer h1 img {
+          top: 18px;
+     }
+
      section.nav nav.navigation {
           display: none;
      }
