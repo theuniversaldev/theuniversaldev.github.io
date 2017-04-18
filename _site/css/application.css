@@ -368,6 +368,12 @@ section.banner#footer h1 img {
      top: 55px;
 }
 
+/* 404 Image */
+
+section.banner h1 img.notfound {
+     top: 55px;
+}
+
 /* Responsive Design Styling */
 
 @media only screen and (max-width: 1254px) {
